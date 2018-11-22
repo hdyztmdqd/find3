@@ -94,5 +94,5 @@ func updateCounter(family string) {
 		logger.Log.Error(err)
 	}
 
-	go Calibrate(family, true)
+	// go Calibrate(family, true)
 }
